@@ -1,0 +1,25 @@
+{
+  "name": "zhvast",
+  "version": "1.0.0",
+  "description": "zhvast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hc1213/zhvast.git"
+  },
+  "keywords": [
+    "zhvast.com"
+  ],
+  "author": "dshu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hc1213/zhvast/issues"
+  },
+  "homepage": "https://github.com/hc1213/zhvast#readme",
+  "dependencies": {
+    "koa": "^2.5.0"
+  }
+}
