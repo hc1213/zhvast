@@ -13,12 +13,12 @@ app.use(logger())
 
 console.log('__dirname--->', path.join(__dirname, staticPath))
 app.use(static(
-    path.join(__dirname, staticPath)
+    path.resolve(__dirname, staticPath)
 ))
 
-// const main = ctx => {
-//     ctx.response.body = 'hello zhvast';
-// };
+const main = ctx => {
+    ctx.response.body = 'hello zhvast';
+};
 
 // router.get('/',async(ctx,next)=>{
     
